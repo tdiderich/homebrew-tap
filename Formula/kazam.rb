@@ -15,9 +15,9 @@ class Kazam < Formula
   test do
     assert_match "kazam", shell_output("#{bin}/kazam --version")
     system bin/"kazam", "init", "smoke-site"
-    assert_predicate testpath/"smoke-site/kazam.yaml", :exist?
-    assert_predicate testpath/"smoke-site/index.yaml", :exist?
+    assert_path_exists testpath/"smoke-site/kazam.yaml"
+    assert_path_exists testpath/"smoke-site/index.yaml"
     system bin/"kazam", "build", "smoke-site", "--out", "smoke-site/_site"
-    assert_predicate testpath/"smoke-site/_site/index.html", :exist?
+    assert_path_exists testpath/"smoke-site/_site/index.html"
   end
 end
