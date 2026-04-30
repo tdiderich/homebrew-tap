@@ -1,8 +1,8 @@
 class Kazam < Formula
-  desc "Beautiful static sites from simple YAML — one Rust binary, no framework, no npm"
+  desc "Agent workspace and static site generator — one Rust binary, no dependencies"
   homepage "https://tdiderich.github.io/kazam/"
-  url "https://github.com/tdiderich/kazam/archive/refs/tags/v1.2.2.tar.gz"
-  sha256 "a8e8cfaf3ecc7ceda7a447e1d96762c572e6c3bbd286118852e79b1a0c3b8fba"
+  url "https://github.com/tdiderich/kazam/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "d613a04e13a88059e8e5feeba471b7125b5420e6122f834a0f1d5b8fe6ae35af"
   license "MIT"
   head "https://github.com/tdiderich/kazam.git", branch: "main"
 
