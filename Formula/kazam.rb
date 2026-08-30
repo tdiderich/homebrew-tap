@@ -1,8 +1,8 @@
 class Kazam < Formula
   desc "Agent workspace and static site generator — one Rust binary, no dependencies"
   homepage "https://tdiderich.github.io/kazam/"
-  url "https://github.com/tdiderich/kazam/archive/refs/tags/v1.24.0.tar.gz"
-  sha256 "8af03b61dfbd3dc0ac1d12c0c35d546badfe9a8d9b9590b5f21aadb085506dcf"
+  url "https://github.com/tdiderich/kazam/archive/refs/tags/v1.25.0.tar.gz"
+  sha256 "03e917e298b2b32c1e830f93ec2fedaef0d79bde6d078638b2685ab27cd1b0ba"
   license "MIT"
   head "https://github.com/tdiderich/kazam.git", branch: "main"
 
